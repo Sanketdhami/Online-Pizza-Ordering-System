@@ -1,0 +1,20 @@
+region: us-west-2
+
+function_name: hello_lambda_function
+handler: service.handler
+role: pizzashop
+description: Post order id
+
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+#Access Key ID:
+#AKIAJSXM7Y3DDH4KZOTA
+#Secret Access Key:
+#6OsGxbG2Nrd+9Y73qaNTJR07mWGMenBnlnQqUiIv
+aws_access_key_id: "AKIAJSXM7Y3DDH4KZOTA"
+aws_secret_access_key: "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"
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512

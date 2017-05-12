@@ -1,0 +1,14 @@
+region: us-west-2
+
+function_name: menu_get
+handler: service.handler
+role: pizzashop
+description: Get request from menu
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: "AKIAJSXM7Y3DDH4KZOTA"
+aws_secret_access_key: "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"
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
